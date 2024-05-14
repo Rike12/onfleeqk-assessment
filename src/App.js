@@ -1,9 +1,9 @@
 import React from 'react';
-import Search from './Search'
+import Main from './MainContent'
 
 function App() {
   return (
-    <Search/>
+    <Main/>
   );
 }
 
