@@ -4,6 +4,7 @@ import Bag from './assets/bag.png';
 import Netflix from './assets/netflix.png';
 import Plus from './assets/plus.png';
 import Taxi from './assets/taxi.png';
+import Progress from './Progress'
 
 
 
@@ -13,7 +14,9 @@ const Side = () => {
         <div>
                  
             
-
+           <div className='mt-30'>
+            <Progress/>
+           </div>
             <div className='mt-30 mb-34'>
                 <Visa />
             </div>

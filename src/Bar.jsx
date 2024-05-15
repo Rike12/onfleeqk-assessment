@@ -35,8 +35,12 @@ function App() {
     };
 
     return (
+
+        <div>
+            
         <div style={{ height: "400px" }}>
             <CanvasJSChart options={options} backgroundColor="#f0f0f0" />
+        </div>
         </div>
     );
 }
