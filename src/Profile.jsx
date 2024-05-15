@@ -8,12 +8,12 @@ import Bar from "./Bar"
 const Profile = () => {
   return (
     <div>
-      <div className="mt-8 flex gap-4 mr-8 space-x-0 space-y-2 md:space-x-4 md:space-y-0 sm:space-y-2">
-        <div className=" bg-white pt-4 shadow rounded-lg md:w-1/2  ">
+      <div className="mt-8 lg:flex-row gap-4 mr-8 space-x-0 space-y-2 md:space-x-4 md:flex-col">
+        <div className=" bg-white pt-4 shadow rounded-lg md:w-full  ">
           <Bar/>
         </div>
 
-        <div className=" bg-white pt-4 px-4 shadow rounded-lg md:w-1/2 mb-20">
+        <div className=" bg-white pt-4 px-4 shadow rounded-lg md:w-full mb-20">
           <div className="flex items-center text-sm pt-12 ml-8 ">
             <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
               <img

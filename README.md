@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Onfleeqk Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a frontend assessment built using React and TailwindCSS. It includes a circular progress bar using `react-customizable-progressbar` and various charts including spline and box & whisker charts using `@canvasjs/react-charts`.
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+[https://onfleeqk-assessment.vercel.app/](#)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## GitHub Repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[https://github.com/Rike12/onfleeqk-assessment](#)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running, follow these simple steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
+- npm (Node Package Manager)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation Steps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+    ```bash
+    git clone <your-repo-url>
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd onfleeqk-assessment
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+## Running the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the project, use the following command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
+## Running the Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To start the development server and view the application, navigate to [http://localhost:3000](http://localhost:3000) in your web browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+- **React**: A JavaScript library for building user interfaces.
+- **TailwindCSS**: A utility-first CSS framework.
+- **react-customizable-progressbar**: A customizable progress bar component for React.
+- **@canvasjs/react-charts**: CanvasJS React Charts for rendering spline, box & whisker, and candlestick charts.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Responsiveness
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The project is designed to be responsive across various screen sizes and devices.
 
-### Code Splitting
+## Challenges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Design Images**: The design provided in the Figma file was an image, making it difficult to export all images. As a result, I had to improvise with the available assets.
+- **Candlestick Chart**: I couldn't replicate the exact candlestick chart from the design, so I used the closest available alternative.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are welcome! If you have any suggestions or improvements, feel free to open a pull request or issue.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Name - mutiat900@gmail.com
 
-### Deployment
+Github: [https://github.com/Rike12/](#)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React**: A JavaScript library for building user interfaces.
+- **TailwindCSS**: A utility-first CSS framework.
+- **react-customizable-progressbar**: A customizable progress bar component for React.
+- **@canvasjs/react-charts**: CanvasJS React Charts for rendering spline, box & whisker, and candlestick charts.
+
+## Responsiveness
+
+The project is designed to be responsive across various screen sizes and devices.
+
+## Challenges
+
+- **Design Images**: The design provided in the Figma file was an image, making it difficult to export all images. As a result, I had to improvise with the available assets.
+- **Candlestick Chart**: I couldn't replicate the exact candlestick chart from the design, so I used the closest available alternative.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to open a pull request or issue.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Your Name - Your Email
+
+Project Link: [GitHub Repository](#)
