@@ -1,14 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import CanvasJSReact from '@canvasjs/react-charts';
 
 const { CanvasJSChart } = CanvasJSReact;
 
 function App() {
-    const [chartWidth, setChartWidth] = useState(window.innerWidth);
-
     const options = {
         height: 300,
-        width: chartWidth,
         axisX: {
             labelFormatter: function(e) {
                 const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -37,22 +34,13 @@ function App() {
         }]
     };
 
-    useEffect(() => {
-        const handleResize = () => {
-            setChartWidth(window.innerWidth - 20); // Adjust width as necessary
-        };
-
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
-
     return (
-        <div style={{ padding: '10px' }}>
-            <div style={{ height: "400px", width: '100%' }}>
-                <CanvasJSChart options={options} />
-            </div>
+
+        <div>
+            
+        <div style={{ height: "400px" }}>
+            <CanvasJSChart options={options} backgroundColor="#f0f0f0" />
+        </div>
         </div>
     );
 }
