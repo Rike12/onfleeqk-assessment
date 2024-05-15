@@ -4,23 +4,15 @@ import Bag from './assets/bag.png';
 import Netflix from './assets/netflix.png';
 import Plus from './assets/plus.png';
 import Taxi from './assets/taxi.png';
-import CircleProgress from 'react-circle-progress-bar';
+
 
 
 
 const Side = () => {
     return (
         <div>
-            <div className="mt-20 ml-12 mb-16">
-  <CircleProgress
-    percentage={75}
-    strokeWidth={10}
-    primaryColor="#4299E1"
-    secondaryColor="#CBD5E0"
-    size={200}
-  />
-</div>
-
+                 
+            
 
             <div className='mt-30 mb-34'>
                 <Visa />

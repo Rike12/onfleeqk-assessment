@@ -1,6 +1,8 @@
 import React from 'react';
 import Card from './Card';
 import Side from './Side';
+import Statistics from './Statistics';
+import Profile from './Profile';
 import Biro from './assets/pen.png'
 
 
@@ -13,7 +15,14 @@ const Content = () => {
       <Card />
      
     
+   <div className='mt-10'>
+    <Statistics/></div>   
+
+ 
   
+    <div className='mt-10'>
+          <Profile/>
+    </div>   
     </div>
 
     <div className="col-span-1 bg-gray-100 rounded-md   ">

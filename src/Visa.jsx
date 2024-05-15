@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Chip from "./assets/chip.png";
 
 const CreditCard2 = () => {

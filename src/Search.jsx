@@ -6,7 +6,7 @@ const Search = () => {
     <div >
       <div className="flex items-center w-96 gap-4  h-8 rounded-lg focus-within:shadow-lg bg-gray-100 overflow-hidden">
      <div>
-      <img src={Look} alt="Icon" className="w-10 h-5 mt-1 ml-3"/>
+      <img src={Look} alt="Icon" className="w-7 h-5 mt-1 ml-3"/>
         </div>
 
         <input
