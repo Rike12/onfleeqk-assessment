@@ -8,7 +8,7 @@ import Bar from "./Bar"
 const Profile = () => {
   return (
     <div>
-      <div className="mt-8 lg:flex-row gap-4 mr-8 space-x-0 space-y-2 md:space-x-4 md:flex-col">
+      <div className="mt-8 lg:flex lg:flex-row gap-4 mr-8 space-x-0 space-y-2 md:space-x-4 md:flex-col">
         <div className=" bg-white pt-4 shadow rounded-lg md:w-full  ">
           <Bar/>
         </div>

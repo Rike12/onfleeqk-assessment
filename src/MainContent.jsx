@@ -20,11 +20,11 @@ const MainContent = () => {
        
         <div className=" w-screen ml-16  bg-gray-50 rounded-3xl z-50">
         <div className=' relative top-36 right-5 rounded-lg'><img src={Home} alt="Image" className="w-10 rounded-md"/></div>
-        <div className=' lg:flex-row md:flex-row sm:flex-col m-7 gap-2   mt-3 lg:justify-between '>
+        <div className=' lg:flex lg:flex-row md:flex-row sm:flex-col m-7 gap-2   mt-3 lg:justify-between '>
 
     <div className='    '><Search/></div>
   
-    <div className=' lg:flex-row md:flex-col md:gap-6 lg:justify-around lg:ml-40 lg:gap-10 sm:flex-col  sm:items-start '>
+    <div className='lg:flex lg:flex-row md:flex-col md:gap-6 lg:justify-around lg:ml-40 lg:gap-10 sm:flex-col  sm:items-start '>
         <div><a href="" className='font-bold'>Feedback</a></div>
         <div><a href="" className='font-bold'>Contacts</a></div>
         <div><a href="" className='font-bold'>Help</a></div>
