@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import CanvasJSReact from '@canvasjs/react-charts';
 import Down from './assets/down.png';
 
-
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
@@ -35,12 +34,53 @@ function App() {
     });
 
     return (
-        <div className='bg-gray-100 px-4 rounded-xl pb-10'>
-            <div className='flex justify-between mb-5 '>
-                <p className='font-bold mt-4'>Statistics</p>
-                <button className="mt-4 flex gap-2 rounded-3xl bg-white px-5 py-2 text-indigo-800 font-bold">Year <span><img src={Down} alt="Icon" className="w-5 h-5 mt-1" /></span></button>
+        <div className='container'>
+            <div className='header'>
+                <p className='font-bold'>Statistics</p>
+                <button className="toggle-button">Year <img src={Down} alt="Icon" className="icon" /></button>
             </div>
             <CanvasJSChart options={options} />
+            <style jsx>{`
+                .container {
+                    background-color: #f0f0f0;
+                    padding: 20px;
+                    border-radius: 20px;
+                }
+                .header {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                }
+                .font-bold {
+                    font-weight: bold;
+                }
+                .toggle-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    border-radius: 20px;
+                    background-color: #fff;
+                    padding: 10px 20px;
+                    color: #3f51b5;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                .icon {
+                    width: 20px;
+                    height: 20px;
+                }
+                @media (max-width: 768px) {
+                    .toggle-button {
+                        font-size: 0.8rem;
+                        padding: 8px 16px;
+                    }
+                    .icon {
+                        width: 18px;
+                        height: 18px;
+                    }
+                }
+            `}</style>
         </div>
     );
 }
